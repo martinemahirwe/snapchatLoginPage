@@ -1,0 +1,157 @@
+body {
+  font-family: Roboto;
+  margin: 0;
+  background-color: #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  overflow-y: visible;
+}
+.header {
+  background-color: #fffc00;
+  height: 80px;
+  width: 500px;
+  border-radius: 5px;
+}
+.main {
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+}
+.custom-icon {
+  float: right;
+  font-size: 55px;
+  margin: 12px;
+}
+.welcome {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.welcome h1,
+.login p {
+  font-weight: 400px;
+  /*font-size: 24px;
+  line-height: 28.15px;*/
+}
+.login,
+.log {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  border: none;
+  height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login p,
+.log p {
+  color: #fffc00;
+  font-size: 18px;
+}
+.trouble p {
+  font-size: 12px;
+  margin-top: 25px;
+  color: black;
+  font-weight: 400;
+}
+.or {
+  margin-bottom: 20px;
+  color: #bbbbbb;
+  font-size: 18px;
+  font-weight: 400;
+}
+input {
+  width: 350px;
+  height: 20px;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+input::placeholder {
+  color: #bbbbbb;
+  font-size: 12px;
+  font-weight: 400;
+}
+input:focus::placeholder {
+  transform: translateY(-10px);
+  font-size: 10px;
+}
+input:focus {
+  height: 30px;
+  outline: none;
+}
+.name {
+  margin-top: -7px;
+  margin-bottom: 20px;
+}
+.forget {
+  color: #0d46d9;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 0;
+  padding-left: 260px;
+  margin-top: 5px;
+  margin-bottom: 28px;
+}
+.log {
+  background-color: #bbbbbb;
+  margin-bottom: 30px;
+}
+.log p {
+  color: white;
+}
+.sign {
+  padding-bottom: 10vh;
+  color: #626262;
+  font-weight: 400;
+  font-size: 12px;
+}
+strong {
+  color: black;
+}
+
+@media only screen and (max-width: 480px) {
+  .main,
+  .header {
+    width: 320px;
+  }
+  .log,
+  .login {
+    width: 230px;
+    font-size: 18px;
+  }
+  input {
+    width: 270px;
+  }
+  .trouble,
+  .sign {
+    font-size: 10px;
+  }
+  .or {
+    font-size: 18px;
+  }
+  input::placeholder {
+    font-size: 10px;
+  }
+  .forget {
+    padding-left: 185px;
+  }
+}
+
+/* @media only screen and (min-width: 481px) and (max-width: 768px) {
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+}
+
+@media only screen and (min-width: 1201px) {
+} */
