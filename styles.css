@@ -6,7 +6,6 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  overflow-y: visible;
 }
 .header {
   background-color: #fffc00;
